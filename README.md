@@ -42,15 +42,14 @@ Many people find them selves asking this, others asking why the heck this is nee
 `You can calculate it by finding the difference between the crank's spawn angle at -90°, and cylinder number 1's bank angle.`
 
 ### Example for an inline engine with your bank angle at `0°`:
-```
 Say cylinder #1 spawns facing all the way to the right, that means that your cylinder 1 is at 0° or any interval of 360° 
 (... 360 , 720, ...) In that case, your bank is at 0° and that puts your cylinder 1 crank angle at -90°. That leaves 90° inbetween  the two values. which should be your TDC value.
 
 Bank angle = 0
 Cylinder 1 spawn angle = -90
 
-0 - -90 = 90
-```
+`0 - -90 = 90`
+
 
 ## What is a main.mr??
 
